@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="icon/iconfont.css" />
+		<script src="js/index.js"></script>
+		<script src="js/onclick.js"></script>
+		<title>画板</title>
+	</head>
+	<body>
+		<main>
+			<div class="left">
+				<div class="tool">
+					<label class="iconfont icon-e_zhixian" id='line'></label>
+					<label class="iconfont icon-e_xuxian" id='dashed'></label>
+					<label class="iconfont icon-juxing" id='juxing'></label>
+					<label class="iconfont icon-duobianxing" id='plot'></label>
+					<label class="iconfont icon-yuan" id='circle'></label>
+					<label class="iconfont icon-duojiaoxing" id='ploy'></label>
+					<label class="iconfont icon-tubiao" id='pencil'></label>
+				</div>
+				<div class="color">
+					<label class="iconfont icon-miaobian" active='true' id="stroke"></label>
+					<label class="iconfont">
+						<input type="color"/>
+					</label>
+					<label class="iconfont icon--tianchong" id="fill"></label>
+					<label class="iconfont">
+						<input type="color"/>
+					</label>
+				</div>
+				<div class="text">
+					<label class="iconfont icon-choiceEraser"></label>
+					<label class="iconfont icon-wenzi"></label>
+					<label class="iconfont icon-caijian"></label>
+				</div>
+			</div>
+			<div class="right">
+				<div class="right-top">
+					<label class="iconfont icon-xinjian"></label>
+					<label class="iconfont icon-baocun"></label>
+					<label class="iconfont icon-daoru"></label>
+					<label class="iconfont icon-daochu"></label>
+				</div>
+				<div class="right-bot">
+					<canvas width="636" height="496"></canvas>
+					<div class="era"></div>
+					<div class="cut"></div>
+					<div class="mask"></div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
+
+<!--contenteditable  内容是否能被修改-->

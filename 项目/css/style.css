@@ -1,0 +1,252 @@
+/*
+* @Author: lenovo
+* @Date:   2017-09-09 12:29:11
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-09-13 11:08:29
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+main{
+	width: 1226px;
+	height: auto;
+	margin: 0 auto;
+}
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 50px;
+	background: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.logo{
+	width: 100px;
+	height: 50px;
+	float: left;
+	background: url(../img/logox.jpg) center/cover;
+}
+.nav{
+	width: 466px;
+	height: 100%;
+	float: right;
+}
+.nav>li{
+	width: auto;
+	height: 100%;
+	font-size: 14px;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	margin: 0 15px;
+	color: #fff;
+	position: relative;
+}
+.nav-about{
+	width: 130px;
+	height: 0;
+	position: absolute;
+	top: 50px;
+    left: -50px;
+	background: rgba(0, 0, 0, 0.6);
+	overflow: hidden;
+	transition: .5s;
+}
+.nav-about>li{
+	width: 100%;
+	height: auto;
+	font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+}
+.nav-about>li>a{
+	width: 100%;
+	height: 40px;
+	display: block;
+	color: #fff;
+}
+.nav-about>li:hover{
+	width: 100%;
+	height: 40px;
+	background: #000;
+}
+
+.nav>li>last-child{
+	margin-right: 0;
+}
+.nav>li>a{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	display: block;
+}
+.ma{
+	width: 130px;
+	height: 120px;
+	display: block;
+	background: rgba(255, 255, 255, 0.5)
+}
+.ma>img{
+	width: 130px;
+	height: 120px;
+	display: block;
+}
+/* 头部结束 */
+
+/* 联系我们开始 */
+.connect{
+	width: 100%;
+	height: 400px;
+	background: #3D3F3E;
+}
+.connect>main>ul{
+	width: 100%;
+	height: 400px;
+}
+.connect>main>ul>li{
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin-right: 13px;
+}
+.connect>main>ul>li:last-child{
+	margin-right: 0;
+}
+.connect>main>ul>li>h5{
+	width: 340px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #d4d4d4;
+	text-align: left;
+	padding: 70px 30px 50px;
+}
+.connect>main>ul>li>p{
+	width: 340px;
+	height: 80px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #d4d4d4;
+	text-align: left;
+	padding: 0 30px 50px;
+}
+.share{
+	width: 240px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.share>li{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #4c4c4c;
+	float: left;
+	margin-right: 20px;
+}
+.share>li>a{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: block;
+	color: #d4d4d4;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+}
+.con-box,.mess{
+	width: 340px;
+	height: 240px;
+	padding-left: 30px;
+}
+.con-box>li,.mess>li{
+	width: 100%;
+	height: 30px;
+	font-size: 14px;
+	color: #d4d4d4;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.con-left{
+	width: 50px;
+	height: 100%;
+	float: left;
+	font-size: 16px;
+}
+.con-right{
+	width: auto;
+	height: 100%;
+	float: left;
+}
+.con-right>a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #d4d4d4;
+}
+.mess>li{
+	height: 50px;
+}
+.mess>li>a{
+	width: 50px;
+	height: 50px;
+	float: left;
+	display: block;
+	margin-right: 20px;
+	background: pink;
+}
+.mess>li>a>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.mes-right{
+	font-size: 14px;
+	padding: 5px 10px;
+	line-height: 20px;
+}
+.mes-right>a{
+	color: #fff;
+	display: block;
+}
+/* 联系我们结束 */
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+/* 底部结束 */
+
+/* 返回顶部开始 */
+.goback{
+	width: 45px;
+	height: 50px;
+	position: fixed;
+	right: 0;
+	bottom: -50px;
+	z-index: 999;
+	background:  #ff001699;
+}
+.goback>a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+}
+/* 返回顶部结束 */

@@ -1,0 +1,340 @@
+/*
+* @Author: lenovo
+* @Date:   2017-08-28 23:46:40
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-09-12 17:25:42
+*/
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 670px;
+}
+.imgs{
+	width: 100%;
+	height: 670px;
+	position: relative;
+
+}
+.imgs>li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	transition: 1s;
+}
+.imgs>li>span{
+	width: 350px;
+	height: 40px;
+	color: #fff;
+	position: absolute;
+	top: 280px;
+	font-size: 36px;
+	line-height: 40px;
+}
+.imgs>li:first-child>span{
+	left: 50px;
+}
+.imgs>li:nth-child(2)>span{
+	left: 500px;
+}
+.imgs>li:nth-child(3)>span{
+	right: 50px;
+}
+.imgs>li:first-child{
+	z-index: 2;
+}
+.imgs>li>img{
+	width: 100%;
+	height: 100%;
+}
+.icon-zuoyoujiantou,.icon-zuoyoujiantou1{
+	width: 40px;
+	height: 50px;
+	z-index: 3;
+	display: block;
+	font-size: 26px;
+	line-height: 50px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.icon-zuoyoujiantou{
+	left: 0;
+}
+.icon-zuoyoujiantou1{
+	right: 0;
+}
+/* banner结束 */
+
+/* 关于我们开始 */
+.about{
+	width: 100%;
+	height: 330px;
+}
+.about>main{
+	height: 330px;
+}
+.about>main>ul{
+	width: 1226px;
+	height: 330px;
+}
+.about>main>ul>li{
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin-right: 13px;
+	margin-top: 15px;
+}
+.about>main>ul>li>h1{
+	width: 400px;
+	height: 50px;
+	color: #000;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+	padding-top: 20px;
+}
+.about>main>ul>li>h2{
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+.about>main>ul>li>h2>a{
+	color: #000;
+	display: block;
+}
+.about>main>ul>li>p{
+	width: 340px;
+	height: 150px;
+	margin-top: 30px;
+	padding: 0 30px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+}
+.about>main>ul>li:last-child>p{
+	text-indent: 0;
+}
+.about>main>ul>li>h2>a:hover{
+	color: #FF7735;
+	transform: translate(0,5px) scale(1.1,1.1);
+	transition: .6s;
+}
+.about>main>ul>li:last-child{
+	margin-right: 0;
+}
+/* 关于我们结束 */
+
+/* 图文开始 */
+.tuwen,.design{
+	width: 100%;
+	height: 540px;
+	background: #F2F5F8;
+}
+.pic{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.picx{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.pic img{
+	width: 100%;
+	height: 100%;
+}
+.pic img:hover{
+	transform: scale(1.05, 1.05);
+	transition: .6s;
+}
+.tuwen-about{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.tuwen-about>h1{
+	width: 400px;
+	height: 40px;
+	padding-left: 50px;
+	padding-top: 60px;
+	font-size: 36px;
+	line-height: 40px;
+	color: #37474F;
+}
+.tuwen-about>p{
+	width: 578px;
+	height: auto;
+	padding-left: 50px;
+	padding-top: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #000;
+}
+.tuwen-about>.more{
+	width: 98px;
+	height: 48px;
+	margin-left: 50px;
+	margin-top: 30px;
+	font-size: 14px;
+	line-height: 48px;
+	text-align: center;
+	color: #000;
+	display: block;
+	border: 1px solid #333;
+}
+.tuwen-about>.more:hover{
+	background: #fd1212;
+	color: #fff;
+	border: 1px solid #fd1212;
+}
+/* 图文结束 */
+
+/* 设计团队开始 */
+.design{
+	height: 490px;
+	background: #fff;
+}
+/* 设计团队结束 */
+
+/* 装饰案例开始 */
+.case,.match{
+	width: 100%;
+	height: 360px;
+	background: #F2F4F8;
+}
+.case>h2,.match>h2{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.display{
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+.display>li{
+	width: 25%;
+	height: 100%;
+	float: left;
+	position: relative;
+	transition: .6s;
+}
+.display>li>a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.display>li>a>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.shade{
+	width: 100%;
+	height: 60%;
+	background: rgba(255, 255, 255, 0.95);
+	position: absolute;
+	top: 20%;
+	left: 0;
+	opacity: 0;
+}
+.shade a{
+	color: #333;
+}
+.shade a p{
+	width: auto;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	padding-top: 18px;
+	padding-bottom: 20px;
+}
+.shade1{
+	width: 85%;
+	height: 80%;
+	border: 1px solid blue;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+/* 装饰案例结束 */
+
+/* 软装搭配开始 */
+.match{
+	height: 630px;
+}
+.match-pic{
+	width: 100%;
+	height: 390px;
+}
+.match-pic>li{
+	width: 23%;
+	height: 100%;
+	float: left;
+	margin-right: 30px;
+	border: 1px solid #a8a8a8;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.match-pic>li:last-child{
+	margin-right: 0;
+}
+.match-pic-top{
+	width: 100%;
+	height: 178px;
+}
+.match-pic-top>a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.match-pic-top>a>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+h5{
+	width: 100%;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	padding-top: 30px;
+}
+.match-pic>li>p{
+	width: 85%;
+	height: auto;
+	font-size: 14px;
+	line-height: 26px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.match-pic>li:hover{
+	transform: translate(0, -5px);
+	transition: .5s;
+}
+/* 软装搭配结束 */

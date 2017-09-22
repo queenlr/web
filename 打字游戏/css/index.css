@@ -1,0 +1,44 @@
+/*
+* @Author: lenovo
+* @Date:   2017-08-23 09:03:05
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-08-24 00:25:31
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+main{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+	background: url('../img/27B58PICQqT_1024.jpg') no-repeat center/cover;
+}
+.char{
+	width: 50px;
+	height: 80px;
+	border-radius: 5px;
+	/* background: #f99999; */
+	color: #fff;
+	font-size: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 50px;
+}
+.score{
+	width: 100px;
+	height: 30px;
+	margin: 20px 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 5px;
+	border: 3px solid #b3b2b3;
+	background: rgba(247, 193, 27, 0.76);
+}
+.score:nth-child(3)>span{
+	color: #f50404;
+}

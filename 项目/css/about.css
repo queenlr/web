@@ -1,0 +1,81 @@
+/*
+* @Author: lenovo
+* @Date:   2017-09-09 16:14:30
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-09-10 17:30:34
+*/
+.abanner{
+	width: 100%;
+	height: 450px;
+}
+.abanner>img{
+	width: 100%;
+	height: 100%;
+}
+.navi{
+	width: 100%;
+	height: 60px;
+	font-size: 18px;
+	line-height: 60px;
+	border-bottom: 1px solid #e0e0e0;
+	position: relative;
+}
+.navi>ul{
+	width: 355px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto; 
+}
+.navi>ul>li{
+	width: auto;
+	height: 100%;
+	float: left;
+	margin-left: 45px;
+}
+.navi>ul>li>a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #333;
+}
+.navi>ul>li:first-child>a{
+	color: #fe3405;
+}
+.navi>ul>li>a:hover{
+	color: #fe3405;
+}
+.introduce{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+.introduce>main>a{
+	width: 100%;
+	height: 350px;
+	display: block;
+}
+.introduce>main>a>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.introduce>main>p{
+	width: 100%;
+	height: 60px;
+	padding: 20px 5px 10px 5px;
+	font-size: 16px;
+	line-height: 30px;
+	border-bottom: 1px solid red;
+}
+.intro>p{
+	width: 100%;
+	height: auto;
+	text-indent: 2em;
+	border-bottom: 0;
+	padding: 20px 5px 10px 5px;
+	font-size: 16px;
+	line-height: 30px;
+}

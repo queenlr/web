@@ -1,0 +1,512 @@
+ /*
+* @Author: lenovo
+* @Date:   2017-07-24 18:14:10
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-09-18 23:41:56
+*/
+
+@font-face {
+  font-family: 'iconfont';  /* project id 363524 */
+  src: url('http://at.alicdn.com/t/font_d8itmzdw0ha7nwmi.eot');
+  src: url('http://at.alicdn.com/t/font_d8itmzdw0ha7nwmi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_d8itmzdw0ha7nwmi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_d8itmzdw0ha7nwmi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_d8itmzdw0ha7nwmi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+.ad{
+	max-width: 976px;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 40px;
+	color: #A8A8AA;
+}
+.ad p{
+	float: right;
+	font-size: 12px;
+	line-height: 40px;
+	color: #A8A8AA;
+}
+/* 头部结束 */
+
+/* 导航开始 */
+nav{
+	width: 100%;
+	height: 44px;
+	background: rgba(0, 0, 0, 0.8);
+}
+.nav1{
+	/* width: 100%; */
+	max-width: 1000px;
+	height: 44px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.nav1 li{
+	height: 44px;
+	font-size: 16px;
+	line-height: 44px;
+	float: left;	
+}
+.nav1 li a{
+	color: #fff;
+}
+.nav1 li a:hover{
+	color: #7b7b7b;
+}
+.nav2{
+	width: 100%;
+	height: 44px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	/* display: none; */
+}
+.nav2 li{
+	height: 44px;
+	font-size: 16px;
+	line-height: 44px;
+	float: left;
+}
+.nav2 li a{
+	color: #fff;
+}
+@media screen and (max-width: 760px) {
+	.nav1{
+		display: none;
+	}
+}
+/* 导航结束 */
+
+/* banner开始 */
+.lunbo{
+	width: 100%;
+	height: 550px;
+}
+.banner {
+	width: 100%;
+	height: 550px;
+	display: block;
+	background: #ccc;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+.imgs{
+	width: 100%;
+	height: 550px;
+}
+.imgs>li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.imgs>li:last-child{
+	background: #fafafa;
+}
+.imgs>li:last-child>img{
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+}
+.imgs>li>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.banner h1{
+	color: #000;
+	font-size: 70px;
+	font-weight: bolder;
+	margin-top: 80px;
+	z-index: 10;
+}
+.banner p,span{
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	display: inline-block;
+	z-index: 10;
+}
+.banner p:hover{
+	text-decoration: underline;
+}
+.ban-left,.ban-right{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	display: block;
+	background: #fff;
+	opacity: 0;
+	text-align: center;
+	line-height: 64px;
+	font-size: 40px;
+	color: #000;
+	transition: all 0.7s;
+	position: absolute;
+	top: 50%;
+	margin-top: -32px;
+	z-index: 10;
+}
+.ban-left{
+	left: 2%;
+}
+.ban-right {
+	right: 2%;
+}
+.ban-left:hover{
+	opacity: 0.6;
+}
+.ban-right:hover{
+	opacity: 0.6;
+}
+.ban-bottom{
+	width: 180px;
+	height: 25px;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	margin-left: -120px;
+	z-index: 10;
+}
+.ban-bottom li{
+	width: 50px;
+	height: 2px;
+	margin:0 5px;
+	padding: 11px 0;
+	float: left;
+	background: #dbdbdb;
+	background-clip: content-box;
+}
+.ban-bottom li:hover{
+	background: #808080;
+	background-clip: content-box;
+}
+@media screen and (max-width: 735px) {
+	.banner h1{
+		font-size: 48px;
+	}
+}
+/* banner结束 */
+
+/* 列表开始 */
+.shangpin {
+	width: 100%;
+	height: auto; 
+	overflow: hidden;
+}
+
+.list li {
+	width: 25%;
+	height: 268px;
+	border: 2px solid #fff;
+	border-left: none;
+	box-sizing: border-box;
+	float: left;
+}
+.list li:first-child{
+		background-image: url('../img/ban6.jpg');
+		background-position: center;
+		background-size: cover;
+}
+.list li:nth-child(2){
+		background: url('../img/iphone_upgrade_large.png');
+		background-position: center;
+		background-size: cover;
+}
+.list li:nth-child(3){
+		background-image: url('../img/summer_formal_large.jpg');
+		background-position: center;
+		background-size: cover;
+}
+.list li:nth-child(4){
+	border-right: none;
+		background-image: url('../img/iphone_upgrade_large.png');
+		background-position: center;
+		background-size: cover;
+}
+.list li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-align: center;
+	color: #333;
+}
+.list li a h4{
+	width: 80%;
+	margin: 30px auto 10px;
+	font-size: 20px;
+}
+.list li a p{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #333;
+}
+@media screen and (max-width:1070px ) {
+		.list li{
+			width: 50%;
+		}
+		.list li:nth-child(2n){
+			border-right: none;
+		}
+}
+@media screen and (max-width:735px ) {
+		.list li{
+			width: 100%;
+		}
+		.list li{
+			border-right: none;
+		}
+}
+/* 列表结束 */
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: auto;
+	background: #F2F2F2;
+	padding: 0 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.intro{
+	max-width: 1000px;
+	height: auto;
+	border-bottom: 1px solid #d6d6d6;
+	padding: 18px 0 12px;
+	font-size: 12px;
+	color: #888;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.buy{
+	max-width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.buy>li{
+	width: 20%;
+	height: auto;
+	float: left;
+}
+.buy>li a{
+	width: 100%;
+	height: 18px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #555;
+}
+.xuangou>li a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+.xuangou{
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+}
+.buy2{
+	width: 100%;
+	height: auto;
+	display: none;
+}
+.buy2 li{
+	width: 100%;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	border-bottom: 1px solid #d6d6d6;
+	margin: 0 auto;
+}
+.buy2 li a{
+	color: #333;
+}
+@media screen and (max-width: 735px){
+	.buy2{
+		display: block;
+	}
+	.buy{
+		display: none;
+	}
+}
+.intro a{
+	color: #0070C9;
+}
+.gobuy{
+	border-bottom: 0;
+}
+.china{
+	max-width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+}
+.img3{
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-top: 12px;
+}
+.zhongguo{
+	width: 30px;
+	height: 40px;
+	font-size: 12px;
+	color: #333;
+	line-height: 40px;
+	float: left;
+	margin-left: 10px;
+}
+.zhongguo:hover{
+	text-decoration: underline;
+}
+.copy,.police{
+	width: 100%;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+	line-height: 20px;
+	box-sizing: border-box;
+	margin: 2px auto;
+}
+.secret{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+.secret li{
+	width: auto;
+	height: 12px;
+	font-size: 12px;
+	float: left;
+	border-right: 1px solid #888;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+.secret li:first-child{
+	padding-left: 0;
+}
+.secret li:last-child{
+	padding-right: 0;
+	border-right: 0;
+}
+.secret li a{
+	color: #333;
+}
+.secret li a:hover{
+	text-decoration: underline;
+}
+.copy,.police a{
+	color: #888;
+}
+.police a:hover{
+	text-decoration: underline;
+}
+.bigcopy{
+	max-width: 1000px;
+	height: 26px;
+	margin: 0 auto;
+	display: none;
+}
+.middle{
+	width: 100%;
+	height: 26px;
+}
+.bigcopy-left{
+	width: 36%;
+	height: 100%;
+	font-size: 12px;
+	line-height: 26px;
+	color: #888;
+	float: left;
+}
+.bigcopy-mid{
+	width: 57%;
+	height: 100%;
+	float: left;
+}
+.bigcopy-mid li{
+	width: auto;
+	height: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	float: left;
+	border-right: 1px solid #888;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 7px;
+}
+.bigcopy-mid li:first-child{
+	padding-left: 0;
+}
+.bigcopy-mid li:last-child{
+	padding-right: 0;
+	border-right: 0;
+}
+.bigcopy-mid li a{
+	color: #666;
+}
+.bigcopy-mid li a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+.bigcopy-right{
+	width: 7%;
+	height: 100%;
+	float: right;
+}
+.img4{
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-top: 5px; 
+}
+.img4 img{
+	width: 100%;
+	height: 100%;
+}
+.zhongguo1{
+	width: 30px;
+	height: 26px;
+	font-size: 12px;
+	color: #333;
+	line-height: 26px;
+	float: right;
+}
+.zhongguo1:hover{
+	text-decoration: underline;
+}
+@media screen and (min-width: 768px){
+	.bigcopy{
+		display: block;
+	}
+	.gobuy,.china,.secret,.copy{
+		display: none;
+	}
+}
+/* 底部结束 */

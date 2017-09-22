@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background: url(../img/music.jpg) no-repeat center/cover;
+}
+.song{
+	width: 90%;
+	height: 7.5rem;
+	margin: 0.6rem auto;
+}
+.title{
+	width: 100%;
+	height: 0.5rem;
+	font-size: 0.26rem;
+	line-height: 0.5rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0.1rem;
+}
+.author{
+	width: 100%;
+	height: 0.5rem;
+	font-size: 0.18rem;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.lyrics{
+	width: 100%;
+	height: 6rem;
+	margin-top: 0.5rem;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.5rem;
+	overflow: hidden;
+}
+.mid{
+	width: 90%;
+	height: 1rem;
+	margin: 0 auto;
+}
+.mid-left{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.icon-xiayishou2,.icon-xiayishou1{
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+	background: #999999;
+	float: left;
+	margin-top: 0.3rem;
+	line-height: 0.4rem;
+	text-align: center;
+}
+.play{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+	float: left;
+	margin: 0.2rem 0.15rem;
+	overflow: hidden;
+	line-height: 0.6rem;
+	text-align: center;
+	background: #999999;
+}
+.mid-right{
+	width: 65%;
+	height: 100%;
+	float: right;
+}
+.mid-top{
+	width: 100%;
+	height: 0.45rem;
+}
+.mid-title,.name{
+	width: 20%;
+	height: 0.3rem;
+	float: left;
+	font-size: 0.16rem;
+	padding-top: 0.15rem;
+}
+.mid-title{
+	width: 35%;
+}
+.time,.fulltime{
+	width: 17%;
+	height: 0.3rem;
+	float: right;
+	font-size: 0.16rem;
+	padding-top: 0.15rem;
+}
+.time{
+	text-align: right;
+}
+.line{
+	padding-top: 0.15rem;
+	height: 0.3rem;
+	width: 0.2rem;
+	float: right;
+	font-size: 0.16rem;
+	text-align: center;
+}
+.duration{
+	width: 100%;
+	height: 0.15rem;
+	border-radius: 0.1rem;
+	background: #fff;
+	margin-top: 0.15rem;
+}
+.progress{
+	width: 0;
+	height: 100%;
+	border-radius: 0.1rem;
+	background: #D75C18;
+}
+.bottom{
+	width: 90%;
+	height: 0.8rem;
+	margin: 0 auto;	
+}
+.model,.icon-shoucang,.icon-yinliang{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+	float: left;
+	margin: 0.2rem 0.15rem;
+	overflow: hidden;
+	line-height: 0.6rem;
+	text-align: center;
+	border:1px solid #999;	
+}
+.vol{
+	width: 35%;
+	height: 0.1rem;
+	margin: 0.4rem;
+	float: left;
+	margin-left: 0.2rem;
+	background: #fff;
+	border-radius: 0.1rem;
+	position: relative;
+}
+.volw{
+	width: 0;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	background: #D75C18;
+}
+.volbut{
+	width: 0.14rem;
+	height: 0.14rem;
+	border-radius: 50%;
+	background: #D75C18;
+	position: absolute;
+	left: -0.07rem;
+}
