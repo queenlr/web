@@ -1,0 +1,296 @@
+/*
+* @Author: lenovo
+* @Date:   2017-07-20 11:36:36
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-07-20 23:41:07
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 360232 */
+  src: url('http://at.alicdn.com/t/font_ygt51jh7ozf9wwmi.eot');
+  src: url('http://at.alicdn.com/t/font_ygt51jh7ozf9wwmi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_ygt51jh7ozf9wwmi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_ygt51jh7ozf9wwmi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_ygt51jh7ozf9wwmi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 3;
+}
+.youyike{
+	width: 27%;
+	height: 0.67rem;
+	margin: 0 auto;
+	margin-top: 0.13rem;
+}
+.logo{
+	width: 35%;
+	height: 100%;
+	float: left;
+}
+.youyike1{
+	width: 65%;
+	height: 100%;
+	float: right;
+	font-size: 0.34rem;
+	line-height: 0.67rem;
+	color: #fff;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+}
+/* 头部结束 */
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	position: relative;
+}
+.img1{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.img1 img{
+	width: 100%;
+	height: 100%;
+}
+/* banner结束 */
+
+/* 列表开始 */
+.list{
+	width: 100%;
+	height: 4.80rem;
+	background: #eeeff3;
+}
+.list ul li{
+	width: 25%;
+	height: 2.40rem;
+	float: left;
+}
+.img2{
+	width: 82%;
+	height: 1.55rem;
+	margin: 0 auto;
+	margin-top: 0.28rem;
+	display: block;
+}
+.img2 img{
+	width: 100%;
+	height: 100%;
+}
+.UI{
+	width: 100%;
+	height: 0.2rem;
+	font-size: 0.2rem;
+	text-align: center;
+	color: #000;
+	margin-top: 0.16rem;
+	display: block;
+}
+/* 列表结束 */
+
+/* 服务体系开始 */
+.fuwu{
+	width: 100%;
+	height: 4.22rem;
+}
+.fuwu1{
+	width: 100%;
+	height: 0.63rem;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.63rem;
+	color: #0377bc;
+}
+.bigbox{
+	width: 100%;
+	height: 4.63rem;
+}
+.bigbox-top{
+	width: 100%;
+	height: 2.18rem;
+	border-top: 0.01rem solid #e8e8e8;
+	border-bottom: 0.01rem solid #e8e8e8;
+}
+.bigbox-top-l{
+	width: 50%;
+	height: 100%;
+	border-right: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+	float: left;
+}
+.left{
+	width: 46%;
+	height: 0.8rem;
+	float: left;
+	margin-left: 0.14rem;
+	margin-top: 0.4rem;
+}
+.left-t{
+	width: 100%;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	color: #000;
+}
+.left-b{
+	width: 100%;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	margin-top: 0.18rem;
+	color: #e0e0e0;
+}
+.bigbox-top-r{
+	width: 40%;
+	height: 1.32rem;
+	float: left;
+	margin-left: 0.3rem;
+	margin-top: 0.4rem;
+	background: url('../img/QQ图片20170720140252.png') no-repeat -0.01rem -4.4rem;
+	background-size: 2rem 8.26rem;
+	display: block;
+}
+.bigbox-top-rr{
+	width: 40%;
+	height: 1.32rem;
+	float: left;
+	margin-left: 0.3rem;
+	margin-top: 0.4rem;
+	background: url('../img/QQ图片20170720140252.png') no-repeat -0.01rem -5.95rem;
+	background-size: 2rem 8.26rem;
+	display: block;
+}
+.bigbox-bot{
+	width: 100%;
+	height: 1.38rem;
+	border-bottom: 0.01rem solid #e8e8e8;
+}
+.bigbox-bot li{
+	width: 33.3333%;
+	height: 100%;
+	border-right: 1px solid #e8e8e8;
+	box-sizing: border-box;
+	float: left;
+}
+.free{
+	width: 0.62rem;
+	height: 0.62rem;
+	float: left;
+	margin-top: 0.4rem;
+	background: url('../img/QQ图片20170720140252.png') no-repeat 0 -7.42rem;
+	background-size: 2rem 8.26rem;
+	display: block;
+}
+.bigbox-l{
+	width: 100%;
+	height: 100%;
+}
+.bot-r{
+	width: 1.8rem;
+	height: 0.24rem;
+	font-size: 0.24rem;
+	float: right;
+	margin-top: 0.3rem;
+	color: #000;
+}
+.bot-rr{
+	width: 1.8rem;
+	height: 0.24rem;
+	font-size: 0.18rem;
+	float: right;
+	margin-top: 0.16rem;
+	color: #b0b0b0;
+}
+.free1{
+	width: 0.62rem;
+	height: 0.62rem;
+	float: left;
+	margin-top: 0.4rem;
+	background: url('../img/QQ图片20170720140252.png') no-repeat -0.69rem -7.42rem;
+	background-size: 2rem 8.26rem;
+	display: block;
+}
+.free2{
+	width: 0.62rem;
+	height: 0.62rem;
+	float: left;
+	margin-top: 0.4rem;
+	background: url('../img/QQ图片20170720140252.png') no-repeat -1.39rem -7.42rem;
+	background-size: 2rem 8.26rem;
+	display: block;
+}
+/* 服务体系结束 */
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1.4rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.bot{
+	width: 100%;
+	height: 0.8rem;
+	margin-top: 0.2rem;
+	background: #fff;
+}
+.bot-l{
+	width: 30%;
+	height: 0.8rem;
+	float: left;
+}
+.button{
+	width: 0.31rem;
+	height: 0.31rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.24rem;
+	background: #fff;
+	border: none;
+}
+.chaxun{
+	width: 1.5rem;
+	height: 100%;
+	font-size: 0.22rem;
+	line-height: 0.8rem;
+	color: #000;
+	display: block;
+	float: left;
+	margin-left: 0.13rem;
+}
+.tel{
+	width: 35%;
+	height: 0.8rem;
+	margin: 0 auto;
+	background: #ff7e00;
+	font-size: 0.26rem;
+	color: #fff;
+	border: none;
+	border-radius: 0.1rem;
+	float: left;
+	box-shadow: 0.1rem 0.1rem 0.3rem 0.05rem rgba(255, 126, 0, 0.3);
+}
+.online{
+	width: 25%;
+	height: 0.8rem;
+	font-size: 0.22rem;
+	color: #000;
+	float: left;
+	margin-left: 0.6rem;
+	line-height: 0.8rem;
+}
+/* 底部结束 */

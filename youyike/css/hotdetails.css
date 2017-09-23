@@ -1,0 +1,340 @@
+/*
+* @Author: lenovo
+* @Date:   2017-07-23 15:27:27
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-07-23 20:05:56
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 360232 */
+  src: url('//at.alicdn.com/t/font_ov4bcgcrvfeqm2t9.eot');
+  src: url('//at.alicdn.com/t/font_ov4bcgcrvfeqm2t9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_ov4bcgcrvfeqm2t9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_ov4bcgcrvfeqm2t9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_ov4bcgcrvfeqm2t9.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 3;
+}
+.youyike{
+	width: 27%;
+	height: 0.67rem;
+	margin: 0 auto;
+	margin-top: 0.13rem;
+}
+.logo{
+	width: 35%;
+	height: 100%;
+	float: left;
+}
+.youyike1{
+	width: 65%;
+	height: 100%;
+	float: right;
+	font-size: 0.34rem;
+	line-height: 0.67rem;
+	color: #fff;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+}
+/* 头部结束 */
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	position: relative;
+}
+.img1{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.img1 img{
+	width: 100%;
+	height: 100%;
+}
+/* banner结束 */
+
+/* 主体开始 */
+.zhuti{
+	width: 100%;
+	height: 100%;
+	background: #f5f6fa;
+}
+.about{
+	width: 94%;
+	height: 0.82rem;
+	font-size: 0.22rem;
+	line-height: 0.82rem;
+	display: block;
+	margin: 0 auto;
+}
+.about a{
+	color: #494747;
+}
+
+/* 用户体验设计开始 */
+.user{
+	width: 94%;
+	height: 7.25rem;
+	margin: 0 auto;
+	background: #fff;
+	display: block;
+}
+.user-top{
+	width: 94.5%;
+	height: 0.8rem;
+	margin: 0 auto;
+}
+.shuxian{
+	width: 0.04rem;
+	height: 0.2rem;
+	float: left;
+	margin-right: 0.2rem;
+	margin-top: 0.3rem;
+	margin-left: 0.04rem;
+	background: #01b5ff;
+}
+.biaoti{
+	width: 94%;
+	height: 0.4rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #444444;
+	margin-top: 0.22rem;
+	display : block;
+	border-bottom: 1px dashed #999999;
+}
+.user p{
+	width: 90%;
+	height: 6.2rem;
+	margin-left: 0.46rem;
+	font-size: 0.24rem;
+	color: #666666;
+	line-height: 0.32rem;
+}
+.img2{
+	width: 94%;
+	height: 3.62rem;
+	background: #474747;
+	display: block;
+	margin: 0 auto;
+}
+.img2 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.com{
+	width: 94%;
+	height: 3.2rem;
+	background: #fff;
+	display: block;	
+	margin: 0 auto;	
+}
+.com p{
+	width: 90%;
+	height: 2.9rem;
+	font-size: 0.24rem;
+	color: #666666;
+	line-height: 0.32rem;
+	margin-left: 0.46rem;
+	padding-top: 0.2rem;
+	border-bottom: 1px dashed #999999; 
+}
+.share{
+	width: 94%;
+	height: 0.9rem;
+	margin: 0 auto;
+	background: #fff;
+}
+.share-l{
+	width: 1.2rem;
+	height: 100%;
+	font-size: 0.24rem;
+	color: #000;
+	line-height: 0.9rem;
+	float: left;
+	margin-left: 0.15rem;
+}
+.share-mid{
+	width: 2.8rem;
+	height: 0.4rem;
+	margin-top: 0.26rem;
+	float: left;
+}
+.share-mid li{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-right: 0.2rem;
+	float: left;
+}
+.share-mid li:last-child{
+	margin-right: 0;
+}
+.share-mid li a{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+}
+.share-mid li a img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+}
+.share-right{
+	width: 1rem;
+	height: 0.4rem;
+	float: right;
+	margin-top: 0.26rem;
+}
+.share-right li{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-right: 0.2rem;
+	float: left;
+}
+.share-right li:last-child{
+	margin-right: 0;
+}
+.share-right li a{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+}
+.share-right li a img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+}
+/* 用户体验设计结束 */
+
+/* 相关文章开始 */
+.wenzhang{
+	width: 100%;
+	height: 1.22rem;
+	overflow: hidden;
+}
+.previous{
+	width: 80%;
+	height: 0.24rem;
+	margin-left: 0.44rem;
+	font-size: 0.24rem;
+	color: #000;
+	margin-top: 0.2rem;
+	display: block;
+}
+.previous p{
+	font-size: 0.24rem;
+	display: inline-block;
+	color: #01b5ff;
+}
+.last{
+	width: 95%;
+	height: 0.24rem;
+	margin-left: 0.44rem;
+	font-size: 0.24rem;
+	color: #000;
+	margin-top: 0.2rem;
+	display: block;
+}
+.last p{
+	font-size: 0.24rem;
+	display: inline-block;
+	color: #01b5ff;
+}
+/* 相关文章结束 */
+
+/* 相关问题开始 */
+.question{
+	width: 94%;
+	height: 3.3rem;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 0.1rem;
+}
+.question .biaoti{
+	font-weight: bold;
+}
+.wenti{
+	width: 100%;
+	height: 2.4rem;
+}
+.cir{
+	width: 0.12rem;
+	height: 0.12rem;
+	border-radius: 50%;
+	background: #01b5ff;
+	float: left;
+	margin-left: 0.2rem;
+	margin-right: 0.16rem;
+	margin-top: 0.3rem;
+	position: relative;
+	box-shadow: 0.01rem 0.1rem. 0.1rem 0.01rem rgba(1, 181, 255, 0.9);
+}
+.scir{
+	width: 0.04rem;
+	height: 0.04rem;     
+	border-radius: 50%;
+	background: #01b5ff;
+	border: 0.02rem solid #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.one{
+	width: 90%;
+	height: 0.24rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #000;
+	margin-top: 0.15rem;
+	margin-bottom: 0.2rem;
+}
+.four{
+	width: 90%;
+	height: 0.24rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #01b5ff;
+	margin-top: 0.15rem;
+}
+/* 相关问题结束 */
+
+.copy{
+	width: 100%;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	text-align: center;
+	color: #666666;
+	margin-bottom: 0.2rem;
+}
+.connect{
+	width: 100%;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	text-align: center;
+	color: #666666;
+	margin-bottom: 0.3rem;
+}
+
+/* 主体结束 */

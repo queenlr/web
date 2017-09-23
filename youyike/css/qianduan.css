@@ -1,0 +1,330 @@
+/*
+* @Author: lenovo
+* @Date:   2017-07-23 20:07:45
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-07-24 08:53:24
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 360232 */
+  src: url('//at.alicdn.com/t/font_ov4bcgcrvfeqm2t9.eot');
+  src: url('//at.alicdn.com/t/font_ov4bcgcrvfeqm2t9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_ov4bcgcrvfeqm2t9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_ov4bcgcrvfeqm2t9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_ov4bcgcrvfeqm2t9.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 3;
+}
+.youyike{
+	width: 27%;
+	height: 0.67rem;
+	margin: 0 auto;
+	margin-top: 0.13rem;
+}
+.logo{
+	width: 35%;
+	height: 100%;
+	float: left;
+}
+.youyike1{
+	width: 65%;
+	height: 100%;
+	float: right;
+	font-size: 0.34rem;
+	line-height: 0.67rem;
+	color: #fff;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+}
+/* 头部结束 */
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	position: relative;
+}
+.img1{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.img1 img{
+	width: 100%;
+	height: 100%;
+}
+/* banner结束 */
+
+/* 主体开始 */
+.zhuti{
+	width: 100%;
+	height: 100%;
+	background: #f5f6fa;
+}
+.about{
+	width: 94%;
+	height: 0.82rem;
+	font-size: 0.22rem;
+	line-height: 0.82rem;
+	display: block;
+	margin: 0 auto;
+}
+.about a{
+	color: #494747;
+}
+
+/* 列表开始 */
+.list{
+	width: 94%;
+	height: 2.26rem;
+	margin: 0 auto;
+	background: #fff;
+	margin-bottom: 0.1rem;
+}
+.list li{
+	width: 1.21rem;
+	height: 1.66rem;
+	margin-left: 0.47rem;
+	float: left;
+	margin-top: 0.28rem;
+	display: block;
+}
+.img2{
+	width: 1.21rem;
+	height: 1.66rem;
+}
+.img2 img{
+	width: 1.21rem;
+	height: 1.21rem;
+}
+.free{
+	width: 100%;
+	height: 0.24rem;
+	font-size: 0.24rem;
+	color: #000;
+	text-align: center;
+}
+/* 列表结束 */
+
+/* 关于前端工程师开始 */
+.summarize{
+	width: 94%;
+	height: 6rem;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 0.1rem;
+}
+.gaishu{
+	width: 100%;
+	height: 0.68rem;
+}
+.shuxian{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.32rem;
+}
+.gaishu1{
+	width: 90%;
+	height: 0.42rem;
+	font-size: 0.2rem;
+	color: #000;
+	padding-top: 0.26rem;
+	margin-left: 0.2rem;
+	font-weight: bold;
+	float: left;
+	border-bottom: 1px dashed #999999;
+}
+.gaishu p{
+	width: 90%;
+	height: 5.8rem;
+	font-size: 0.22rem;
+	color: #666666;
+	margin-left: 0.44rem;
+}
+span{
+	width: 90%;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	color: #01b5ff;
+}
+/* 关于前端工程师结束 */
+
+/* 行业就业薪资开始 */
+.salary{
+	width: 94%;
+	height: 5.76rem;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 0.1rem;
+}
+.img3{
+	width: 6.42rem;
+	height: 4.66rem;
+	margin: 0 auto;
+	display: block;
+}
+.img3 img{
+	width: 100%;
+	height: 100%;
+}
+/* 行业就业薪资结束 */
+
+/* 可就业岗位开始 */
+.job{
+	width: 94%;
+	height: 5.55rem;
+	margin: 0 auto;
+	background: #fff;
+	margin-bottom: 0.1rem;
+	overflow: hidden;
+}
+.job ul{
+	width: 90%;
+	height: 4.36rem;
+	margin-left: 0.44rem;
+	margin-top: 1rem;
+}
+.job ul li{
+	width: 100%;
+	height: 0.56rem;
+	margin-bottom: 0.2rem;
+	/* margin-top: 0.2rem; */
+}
+.img4{
+	width: 0.56rem;
+	height: 0.56rem;
+	float: left;
+	margin-right: 0.2rem;
+	display: block;
+	position: relative;
+}
+.img4 img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.jieshao p{
+	width: 90%;
+	height: 0.32rem;
+	font-size: 0.22rem;
+	color: #666666;
+	margin-left: 0.44rem;
+}
+/* 可就业岗位结束 */
+
+/* 就业学员薪资开始 */
+.stu{
+	width: 94%;
+	height: 4.98rem;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 0.1rem;
+}
+.xian{
+	width: 0.19rem;
+	height: 3.4rem;
+	float: left;
+	margin-left: 0.1rem;
+	margin-top: 0.77rem; 
+}
+.xian img{
+	width: 100%;
+	height: 100%;
+}
+.stubody{
+	width: 94%;
+	height: auto;
+}
+.xinzibody{
+	width: 94%;
+	height: 4.26rem;
+	float: left;
+}
+.xinzidt{
+	width: 100%;
+	height: 0.75rem;	
+	line-height: 0.75rem;
+}
+.xinzidt p{
+	width: 100%;
+	height: 0.75rem;
+	font-size: 0.22rem;
+	color: #000;
+	float: left;
+	text-align: center;
+	line-height: 0.75rem;
+}
+.xinzidd{
+	height: 0.68rem;
+	line-height: 0.68rem;
+}
+.xinzidt p:nth-of-type(1){
+	margin-left: 0.1rem;
+	width: 0.9rem;
+}
+.xinzidt p:nth-of-type(2){
+	width: 2rem;
+}
+.xinzidt p:nth-of-type(3){
+	width: 3rem;
+}
+/* 就业学员薪资结束 */
+
+/* 课程安排开始 */
+.class{
+	width: 94%;
+	height: 4.98rem;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 0.25rem; 
+}
+.img5{
+	width: 6.5rem;
+	height: 4.14rem;
+	margin: 0 auto;
+	display: block;
+}
+.img5 img{
+	width: 100%;
+	height: 100%;
+}
+/* 课程安排结束 */
+
+.copy{
+	width: 100%;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	text-align: center;
+	color: #666666;
+	margin-bottom: 0.2rem;
+}
+.connect{
+	width: 100%;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	text-align: center;
+	color: #666666;
+	margin-bottom: 0.3rem;
+}
+/* 主体结束 */
